@@ -51,7 +51,7 @@
     "xmldom": "0.1.27",
     "logops": "2.1.0",
     "iotagent-node-lib": "git://github.com/letavia/iotagent-node-lib.git#master",
-    "lwm2m-node-lib": "git://github.com/telefonicaid/lwm2m-node-lib.git#master"
+    "lwm2m-node-lib": "git://github.com/letavia/lwm2m-node-lib.git#master"
   },
   "devDependencies": {
     "coveralls": "~3.0.2",

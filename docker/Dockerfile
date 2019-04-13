@@ -23,9 +23,9 @@
 #
 ARG NODE_VERSION=8.15.0-slim
 FROM node:${NODE_VERSION}
-ARG GITHUB_ACCOUNT=telefonicaid
+ARG GITHUB_ACCOUNT=letavia
 ARG GITHUB_REPOSITORY=lightweightm2m-iotagent
-ARG DOWNLOAD=latest
+ARG DOWNLOAD=1.0.0
 ARG SOURCE_BRANCH=master
 
 # Copying Build time arguments to environment variables so they are persisted at run time and can be 

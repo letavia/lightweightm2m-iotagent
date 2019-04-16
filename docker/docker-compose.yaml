@@ -5,7 +5,7 @@ volumes:
 
 services:
     iot-agent:
-        image: fiware/lightweightm2m-iotagent
+        image: letavia/iotagent-lwm2m
         hostname: iot-agent
         container_name: fiware-iot-agent
         depends_on:
